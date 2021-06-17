@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="style_common.css" rel="stylesheet" type="text/css" />
+<link href="responsive.css" rel="stylesheet" type="text/css" />	
+<link href="fotter.css" rel="stylesheet" type="text/css" />
+<link href="slider.css" rel="stylesheet" type="text/css" />
+<link href="top.css" rel="stylesheet" type="text/css" />
+	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+#aboutusmain{
+	width:100%;
+	float:left;
+  background: url(image/bg.png) fixed;
+}
+
+
+#aboutus{
+	float:left;
+	width:100%;
+	background:#FFFFFF;
+	padding:15px;
+	
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.data{text-align:left; font-size:12px;}
+
+.container{
+	width:100%;
+  float:left;
+  height:140px;
+  background: url(image/mini.png)no-repeat center;
+}
+
+.bannertext {
+	width:100%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	line-height:140px;
+	text-align:center;
+	font-size:40px;
+  }
+
+
+
+    </style>
+</head>
+
+
+<body>
+
+
+<!-- Top panel -->
+
+
+<div id="header">
+    <div class="centerpanel">
+      <div id="address"> <i class="fas fa-map-marker-alt"></i> RZ-10/13,2nd floor Om Vihar Phase-1-A, Uttam nagar-West, New Delhi-110059</div>
+      <div id="topcont"> <i class="fas fa-envelope-square"></i> info@shassociates.in, shassociates@outlook.com, sh_associates2u@yahoo.com</div>
+      <div id="topcont1"> <i class="fal fa-phone-square"></i> +91-9999446607, 9811557791</div>
+    </div>
+  </div>
+
+
+   <div class="nav-bar">
+       <img src="image/logo.png">
+       <div class="menu-right">
+           <span onClick="myFunction()">&#9776;</span>
+          <ul id="menu">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="service.html">SERVICE</a></li>
+          <li><a href="project.html">PROJECT +</a></li>
+
+          <li><a href="gallery.html">OUR GALLERY</a></li>
+          <li><a href="certificate.html">CERTIFICATES</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+           </ul>
+       </div>
+   
+  
+   </div>   
+  
+  <script>
+      function myFunction(){
+         var x = document.getElementById("menu"); 
+          
+          if(x.style.display == "block")
+          {
+              x.style.display = "none";
+          }
+          else{
+              x.style.display = "block";
+          }
+      }
+  </script>
+  
+  
+<!-- end of Top panel -->
+
+
+
+<div class="container">
+  <div class="bannertext">Contact Us</div>
+</div>
+
+
+<div id="aboutusmain">
+  <div id="aboutus" style="width:65%; margin:0 auto; float:unset;">
+	<table>
+    <tr>
+        <tr>
+        <td width="50%">
+
+            <p>H.O. : E-84, Sahyog Vihar, Sector-3, Dwarka, New Delhi 110059</p>
+
+            <p>Office Address: RZ- 10/13, Phase 1A, Om Vihar, Near Metro Pillar No. 707, Uttam Nagar (West), New Delhi- 110059</p>
+            
+            <p>Tel. No. 9811557791, 9999226607</p>
+            
+            <p>Email: info@shassociate.in, shassociates@outlook.com, sh_associates2u@yahoo.com</p>
+            
+            <p>Follow on:&nbsp;<a href="http://onlinedemo.co.in/sha/contact.php" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(0, 102, 153);">Facebook</a>,&nbsp;<a href="http://onlinedemo.co.in/sha/contact.php" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(0, 102, 153);">Twitter</a></p>
+            
+            <p>Website:&nbsp;http://shassociates.in/</p>
+            
+         </td>
+
+     <td width="50%">
+              <form method="post"  action="contact.php">
+              <p><input name="name" type="text" size="50" value="" placeholder="Name" class="areatext" /></p>
+      
+              <p><input name="emailid" type="text" size="50" value="" placeholder="Email ID" class="areatext" /></p>
+      
+              <p><input name="phone" type="text" size="50" value="" placeholder="Mobile" class="areatext" /></p>
+      
+              <p><textarea name="query" cols="50" rows="4" placeholder="Your Query" class="areatext"></textarea></p>
+              
+              <p><input type="submit" name="submit"  value="submit"class="submitbutton" /></p>
+              </form>
+    </td>
+</tr>
+  </table>
+  </div>
+ </div>
+
+<!--========== fotter ==========-->
+<div id="footer">
+    <div id="footerdiv">
+                <div id="contactfooter">
+                <p><a href="index.html">Home</a> / <a href="about.html">About Us</a> / <a href="project.html">Projects</a> /
+                 <a href="certificate.html">Certificates</a> / <a href="gallery.html">Our Gallery</a> /
+                  <a href="contact.html">Enquiry</a> / <a href="contact.html">Contact Us</a> / 
+                  <a href="career.html">Career</a></p>
+                <p>Site Design By <a href="https://www.hedkey.com/" target="_blank">Hedkey India Pvt. Ltd.</a>
+    India's Professional Web Designing Company.</p>
+                    </div>
+            </div><!-- End of footer div -->
+    
+    
+    </div>  
+    
+    <!--========== end of fotter ==========-->
+
+</body>
+</html>
