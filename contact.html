@@ -36,7 +36,7 @@ table{
   margin-right: auto;
 }
 
-.data{text-align:left; font-size:12px;}
+.data{text-align:left; font-size:12px; float:left;}
 
 .container{
 	width:100%;
@@ -123,8 +123,8 @@ table{
 	<table>
     <tr>
         <tr>
-        <td width="50%">
-
+        <td>
+           <div class="data">
             <p>H.O. : E-84, Sahyog Vihar, Sector-3, Dwarka, New Delhi 110059</p>
 
             <p>Office Address: RZ- 10/13, Phase 1A, Om Vihar, Near Metro Pillar No. 707, Uttam Nagar (West), New Delhi- 110059</p>
@@ -136,10 +136,9 @@ table{
             <p>Follow on:&nbsp;<a href="http://onlinedemo.co.in/sha/contact.php" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(0, 102, 153);">Facebook</a>,&nbsp;<a href="http://onlinedemo.co.in/sha/contact.php" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(0, 102, 153);">Twitter</a></p>
             
             <p>Website:&nbsp;http://shassociates.in/</p>
-            
-         </td>
-
-     <td width="50%">
+           </div>
+        
+          <div class="data">
               <form method="post"  action="contact.php">
               <p><input name="name" type="text" size="50" value="" placeholder="Name" class="areatext" /></p>
       
@@ -151,6 +150,7 @@ table{
               
               <p><input type="submit" name="submit"  value="submit"class="submitbutton" /></p>
               </form>
+             </div>
     </td>
 </tr>
   </table>
