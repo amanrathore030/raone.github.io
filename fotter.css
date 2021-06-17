@@ -1,0 +1,30 @@
+
+#footer{
+	width:100%;
+	clear:both;
+	background:#333333;
+	font-family:'droid_sansregular';
+	font-size:13px;
+	color:#999999;
+	line-height:20px;
+	float:left;
+}
+
+
+#footerdiv{
+	width:100%;
+	max-width:1100px;
+	margin: 0 auto;
+}
+
+#contactfooter{
+	font-family:'droid_sansregular';
+	font-size:14px;
+	color:#FFFFFF;
+	line-height:30px;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:center;
+	width:100%;
+}
+
